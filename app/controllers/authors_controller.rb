@@ -4,6 +4,7 @@ class AuthorsController < ApplicationController
   def index
     authors = Author.all 
     render json: authors
+    # byebug
   end
 
   def show
